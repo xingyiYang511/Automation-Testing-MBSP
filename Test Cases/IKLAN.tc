@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>CREATE IKLAN</description>
+   <name>IKLAN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ca4c0d4-3ed3-4ce7-8ffc-f65b4601ba21</testCaseGuid>
+</TestCaseEntity>

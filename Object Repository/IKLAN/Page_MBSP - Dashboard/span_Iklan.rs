@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Iklan</name>
+   <tag></tag>
+   <elementGuidId>ffee436c-8b16-41af-a4a9-d6733d11e1df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.dash-item.dash-hasmenu.dash-trigger > ul.dash-submenu > li.dash-item.dash-hasmenu > a.dash-link > span.dash-mtext</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Kenaikan Pangkat'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Iklan&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>24004cd3-2778-4dcb-9dd8-38279e972774</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dash-mtext</value>
+      <webElementGuid>12e9d4b6-c035-45fa-9327-bf5767e12505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Iklan</value>
+      <webElementGuid>2891fd66-7664-4592-921f-813c5c9b0538</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;theme-9 no-scroll&quot;]/nav[@class=&quot;dash-sidebar dark-sidebar transprent-bg mob-sidebar-active&quot;]/div[@class=&quot;navbar-wrapper&quot;]/div[@class=&quot;navbar-content&quot;]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/ul[@class=&quot;dash-navbar&quot;]/li[@class=&quot;dash-item dash-hasmenu dash-trigger&quot;]/ul[@class=&quot;dash-submenu&quot;]/li[@class=&quot;dash-item dash-hasmenu&quot;]/a[@class=&quot;dash-link&quot;]/span[@class=&quot;dash-mtext&quot;]</value>
+      <webElementGuid>62c5285a-79a6-40b9-8d8f-39d114e6903e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kenaikan Pangkat'])[1]/following::span[2]</value>
+      <webElementGuid>eb6106eb-7876-453f-85ac-2d49b264997c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohon Kebenaran'])[1]/following::span[4]</value>
+      <webElementGuid>ef14fa8b-928b-448d-8720-38b59e2c71da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pra Iklan'])[2]/preceding::span[2]</value>
+      <webElementGuid>bc298f2c-68e2-4420-8e6d-a27f9e4ca2ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulletin Jawatan'])[1]/preceding::span[3]</value>
+      <webElementGuid>bdb54f02-a08a-4c39-97eb-b51eddda5eca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li/a/span</value>
+      <webElementGuid>67ed1332-8257-4861-8ab2-b7ab32de7f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Iklan' or . = 'Iklan')]</value>
+      <webElementGuid>d24da8ee-4209-4f2a-b1f7-3a08e245fa09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
