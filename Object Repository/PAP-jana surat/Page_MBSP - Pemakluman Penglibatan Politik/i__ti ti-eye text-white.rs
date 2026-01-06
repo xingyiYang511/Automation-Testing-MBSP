@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__ti ti-eye text-white</name>
+   <tag></tag>
+   <elementGuidId>449bceb1-5b9f-40c8-80eb-d5857a53a9c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='permohonan-table']/tbody/tr[3]/td[7]/span/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>82d8fce0-e095-4ada-8161-1c1b6ad5e47f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ti ti-eye text-white</value>
+      <webElementGuid>4c2f3c6f-b8fd-4ab8-859d-6f117604cf1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;permohonan-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[7]/span[@class=&quot;d-inline-flex align-items-center gap-2&quot;]/div[@class=&quot;action-btn bg-info ms-2&quot;]/a[@class=&quot;mx-3 btn btn-sm d-flex align-items-center btn-view-modal&quot;]/i[@class=&quot;ti ti-eye text-white&quot;]</value>
+      <webElementGuid>3a76dce4-ffb4-4cb3-bf0d-d4aefffd8efe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='permohonan-table']/tbody/tr[3]/td[7]/span/div/a/i</value>
+      <webElementGuid>d6101702-5e5b-42b4-af12-f8bfd9c850f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[7]/span/div/a/i</value>
+      <webElementGuid>c0faf4df-cc2a-48b6-b996-361082958c05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

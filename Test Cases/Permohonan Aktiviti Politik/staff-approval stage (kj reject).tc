@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>staff-approval stage (kj reject)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>656b7748-1428-4741-923a-807647626513</testCaseGuid>
+</TestCaseEntity>

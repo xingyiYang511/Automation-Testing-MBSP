@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c</name>
+   <tag></tag>
+   <elementGuidId>9c38e87f-7f17-41f8-89ab-b0f7b7060bad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='kelulusan-table']/tbody/tr/td[8]/span/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.action-btn.bg-success.ms-2 > a.mx-3.btn.btn-sm.d-flex.align-items-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c4cc80cd-d4fe-4b57-8008-32e24799bc35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/12/approval</value>
+      <webElementGuid>be74fb96-91c7-495d-b2e2-9f9d2bbe0ef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx-3 btn btn-sm d-flex align-items-center</value>
+      <webElementGuid>9f794498-d002-4d88-adc5-aee03022b000</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>c2f819ef-3922-4662-8bb3-6c30a375eb90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-original-title</name>
+      <type>Main</type>
+      <value>Proses Kelulusan</value>
+      <webElementGuid>bbebfdd8-6fa3-439d-8804-11aafadecd96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip364863</value>
+      <webElementGuid>21c32530-8d8e-4d54-b82f-2a0c4cb5b138</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kelulusan-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/span[@class=&quot;d-inline-flex align-items-center&quot;]/div[@class=&quot;action-btn bg-success ms-2&quot;]/a[@class=&quot;mx-3 btn btn-sm d-flex align-items-center&quot;]</value>
+      <webElementGuid>edc5d81e-8927-42a2-a275-49a2c436da4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='kelulusan-table']/tbody/tr/td[8]/span/div[2]/a</value>
+      <webElementGuid>1b8eaa1e-e6f7-4174-838a-46be0ec54f6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dalam Semakan'])[1]/following::a[2]</value>
+      <webElementGuid>544cc35c-1eb4-409e-8d47-fa69df470706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TEST'])[1]/following::a[2]</value>
+      <webElementGuid>2f0c0801-83b9-49f6-b814-393a1311eea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='company'])[1]/preceding::a[1]</value>
+      <webElementGuid>0b81c42a-0fc8-4781-a591-bc6ee0c3e29e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jabatan Perbendaharaan'])[1]/preceding::a[1]</value>
+      <webElementGuid>0634acea-8db8-4e71-bfb0-e6707626522e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/12/approval')]</value>
+      <webElementGuid>4e5d3543-b8ec-44ac-b96c-fab28a9826ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div[2]/a</value>
+      <webElementGuid>a64a8bbe-2eb2-4bb8-97ee-b1eefdae5afe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/12/approval']</value>
+      <webElementGuid>d4e4c8ca-3832-4646-9577-b84c136d4e80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

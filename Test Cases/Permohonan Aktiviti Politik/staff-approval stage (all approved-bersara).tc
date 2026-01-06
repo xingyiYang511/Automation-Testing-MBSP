@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>staff-approval stage (all approved-bersara)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c61ceaad-932e-460e-8cb9-fbe0e2ddb896</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c</name>
+   <tag></tag>
+   <elementGuidId>058db3e8-bb38-49eb-96e5-5480e93750a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='kelulusan-table']/tbody/tr/td[8]/span/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.action-btn.bg-success.ms-2 > a.mx-3.btn.btn-sm.d-flex.align-items-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>826c0a7b-27ae-4ca0-a1ea-4f8963c678dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/25/approval</value>
+      <webElementGuid>ac4d2f8c-eaad-4fda-ae4b-ef8add67ba68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx-3 btn btn-sm d-flex align-items-center</value>
+      <webElementGuid>c73c2ab9-f259-4a1d-b410-4749573c4bf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>9a0c050f-ebdb-49aa-ae44-bbe19857daf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-original-title</name>
+      <type>Main</type>
+      <value>Proses Kelulusan</value>
+      <webElementGuid>87e9ecae-a363-43e3-bbec-5a34e1306304</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip126388</value>
+      <webElementGuid>473a8884-7350-4e25-92b4-df35aab3806d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kelulusan-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[8]/span[@class=&quot;d-inline-flex align-items-center&quot;]/div[@class=&quot;action-btn bg-success ms-2&quot;]/a[@class=&quot;mx-3 btn btn-sm d-flex align-items-center&quot;]</value>
+      <webElementGuid>caf468c7-d02d-4f9a-b077-51906e1a8249</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='kelulusan-table']/tbody/tr/td[8]/span/div[2]/a</value>
+      <webElementGuid>662de73d-0ef8-4a9a-b825-ac8284676a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dalam Semakan'])[1]/following::a[2]</value>
+      <webElementGuid>9e0c62fe-9da9-427a-b821-14f71d5c9ffd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY / TEST'])[1]/following::a[2]</value>
+      <webElementGuid>27d4d384-e6c0-418e-9c0c-bc5394be2b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='spo'])[2]/preceding::a[1]</value>
+      <webElementGuid>d6102467-df55-4e8c-bb07-0bdb0b76d65d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jabatan Khidmat Pengurusan'])[2]/preceding::a[1]</value>
+      <webElementGuid>8d888259-65f8-4ba8-b488-0998a057a4b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/25/approval')]</value>
+      <webElementGuid>9c018ec5-21d0-4e24-8502-b779b25c85d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div[2]/a</value>
+      <webElementGuid>01ca8e9f-75e8-4bbc-8f9d-d76159f529fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/25/approval']</value>
+      <webElementGuid>036d64b4-137e-4868-856d-bf371d0ac5cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PN'])[1]/following::a[2]</value>
+      <webElementGuid>d299da40-27d8-40b0-b212-465f8e2a36ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/10/approval')]</value>
+      <webElementGuid>6289e55d-53e7-4379-a62c-948a56d49455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-admin/10/approval']</value>
+      <webElementGuid>892374ff-5cfb-4b61-9810-7f325127aceb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

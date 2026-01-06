@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a__notification_dropdown_toggle</name>
+   <tag></tag>
+   <elementGuidId>bbd7f394-5cc0-4501-9a7d-842933624169</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='notification_dropdown_toggle'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>76bce2e1-6334-437c-9654-a6030c221ba3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dash-head-link arrow-none me-0</value>
+      <webElementGuid>80b8974f-e457-410d-8ba7-265eeae12a12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>2f75cb0f-85d0-4fd3-bd5d-6251528aad0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>23501a39-1304-424c-9427-5d08a496165d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#changeRoleModal</value>
+      <webElementGuid>fa0495b6-46b0-4b4b-a1d3-c86b42cf2b82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>notification_dropdown_toggle</value>
+      <webElementGuid>d4d1b30f-0f40-48a1-b32e-9f48f2673778</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Tukar Peranan
+        </value>
+      <webElementGuid>debc27c0-81da-44b5-987c-2642ea635ff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;theme-9 modal-open&quot;]/header[@class=&quot;dash-header  transprent-bg&quot;]/div[@class=&quot;header-wrapper&quot;]/div[@class=&quot;me-auto dash-mob-drp&quot;]/ul[@class=&quot;list-unstyled gap-2&quot;]/li[@class=&quot;dropdown dash-h-item drp-company&quot;]/a[@id=&quot;notification_dropdown_toggle&quot;]</value>
+      <webElementGuid>2fb7a4a3-7c01-47a0-9fec-640b9d80075b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='notification_dropdown_toggle'])[2]</value>
+      <webElementGuid>8f605fde-bc76-4043-bef8-c793d9487c75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Tukar Peranan')]</value>
+      <webElementGuid>586283b9-0500-4426-ab11-6091d47cb51f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::a[1]</value>
+      <webElementGuid>b4f8d31a-8ac2-4750-a260-46443239544c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat lagi'])[1]/following::a[2]</value>
+      <webElementGuid>a1371cf5-83a7-40cb-a80d-c1d4de2ee042</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tukar Peranan'])[2]/preceding::a[1]</value>
+      <webElementGuid>f4f766ca-a56d-48a7-ba18-cd73c8691248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tukar Peranan']/parent::*</value>
+      <webElementGuid>4f819c56-47dc-485a-b9e5-fc2f3e2b5d56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[36]</value>
+      <webElementGuid>ba98ef6c-8a81-4d4d-ae7c-f06ac67d0469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/div/ul/li[5]/a</value>
+      <webElementGuid>4eb49afa-48f4-453b-9170-6a89f08c73f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @id = 'notification_dropdown_toggle' and (text() = '
+            Tukar Peranan
+        ' or . = '
+            Tukar Peranan
+        ')]</value>
+      <webElementGuid>6ec9c250-203d-4e1c-bf41-0c1ad1f72328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::a[2]</value>
+      <webElementGuid>1e34e267-03b9-4818-b51d-14cecd31cc99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat lagi'])[1]/following::a[3]</value>
+      <webElementGuid>0e103850-412e-4d2b-ab84-d2f56f389cec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[37]</value>
+      <webElementGuid>626479c0-fa96-4da2-9642-ba093e7771a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/div/ul/li[6]/a</value>
+      <webElementGuid>c8abf5bd-1418-47a3-a65c-bd8c3d823256</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

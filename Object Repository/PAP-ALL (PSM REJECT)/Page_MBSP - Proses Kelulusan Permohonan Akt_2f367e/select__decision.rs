@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select__decision</name>
+   <tag></tag>
+   <elementGuidId>90ed082c-4be2-4085-bab7-d05456f2f9c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='decision']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#decision</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>99395585-24c5-4370-8cf9-9614559393f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select</value>
+      <webElementGuid>1a18a52f-ab22-4f80-8f19-c52b9e5e0ff7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>decision</value>
+      <webElementGuid>17de3d83-f28a-4cbd-8494-7021188f5d43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>decision</value>
+      <webElementGuid>59261570-2b1f-422c-83ae-13e2119f60af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-asterisk-done</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7952ac60-51d0-4b98-bf54-771c183cacdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placeholder</name>
+      <type>Main</type>
+      <value>Sila pilih Keputusan</value>
+      <webElementGuid>7510faa6-cc30-4fbb-b345-f5a59d3e6f06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                  Pilih keputusan...
+                  Sokong / Luluskan
+                  Tolak
+                </value>
+      <webElementGuid>2b929044-423a-43e6-88d1-782fe3df2ffb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;decision&quot;)</value>
+      <webElementGuid>c7beaea2-6185-4035-a9a6-c1da5178f20e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='decision']</value>
+      <webElementGuid>4d1544a1-87fb-4e31-baa7-3c6fa53174f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='approvalForm']/div/div/div/select</value>
+      <webElementGuid>86a5b9cb-ad40-4bd6-9f7c-665a706a140f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::select[1]</value>
+      <webElementGuid>e5f5083a-be92-4348-b000-9cbc062479a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::select[1]</value>
+      <webElementGuid>b5bfaebf-5e04-410a-b0d1-42633a93c222</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catatan / Komen'])[1]/preceding::select[1]</value>
+      <webElementGuid>f07b3438-c705-44f1-a04d-c1d482cf2ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catatan adalah pilihan untuk kelulusan, wajib untuk penolakan (minimum 10 aksara)'])[1]/preceding::select[1]</value>
+      <webElementGuid>a7e795ff-cc8d-4d4a-8d2a-525d1c0b368c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/form/div/div/div/select</value>
+      <webElementGuid>7498ac81-b10b-461c-8df1-352d531dbde0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'decision' and @name = 'decision' and (text() = '
+                  Pilih keputusan...
+                  Sokong / Luluskan
+                  Tolak
+                ' or . = '
+                  Pilih keputusan...
+                  Sokong / Luluskan
+                  Tolak
+                ')]</value>
+      <webElementGuid>6ce7003b-9074-4d45-a5d8-0a7b7b891ca3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

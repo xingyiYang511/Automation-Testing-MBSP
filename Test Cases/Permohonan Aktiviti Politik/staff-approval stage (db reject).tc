@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>staff-approval stage (db reject)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02393382-5f1a-487b-8ae7-4f1e0c8e4ba4</testCaseGuid>
+</TestCaseEntity>

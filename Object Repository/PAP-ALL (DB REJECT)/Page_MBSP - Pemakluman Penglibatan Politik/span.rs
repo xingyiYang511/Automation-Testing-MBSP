@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span</name>
+   <tag></tag>
+   <elementGuidId>eb2d7504-8812-4897-a60a-f7a64b492236</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='permohonan-tab-content']/div/div/div/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-secondary > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>23f4a7de-96bd-4039-9b7d-ae3e1decb52c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Baru</value>
+      <webElementGuid>f01bc301-b64a-4af3-964e-a060a79dccb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;permohonan-tab-content&quot;)/div[@class=&quot;col-xl-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header d-flex justify-content-between align-items-center&quot;]/div[@class=&quot;d-flex gap-2&quot;]/a[@class=&quot;btn btn-sm btn-secondary&quot;]/span[1]</value>
+      <webElementGuid>c8b7d4d0-c43c-46ab-88f8-25955c95783f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='permohonan-tab-content']/div/div/div/div/a/span</value>
+      <webElementGuid>0e9a6f8c-706d-43a9-aa44-91e0a64eace5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permohonan Saya'])[2]/following::span[1]</value>
+      <webElementGuid>3f2b309a-5e70-4cfc-8ac5-e82879a1b182</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penapis'])[1]/preceding::span[2]</value>
+      <webElementGuid>05ae3a49-ec2b-4415-9dc8-f76a3d1a1272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah Baru']/parent::*</value>
+      <webElementGuid>684a59f7-1577-4aa6-ac62-779181e61361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/a/span</value>
+      <webElementGuid>75858b14-0a1a-4c55-9c39-03dad897b385</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tambah Baru' or . = 'Tambah Baru')]</value>
+      <webElementGuid>9dbf5433-f3de-4d0c-962a-2500d3db2569</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

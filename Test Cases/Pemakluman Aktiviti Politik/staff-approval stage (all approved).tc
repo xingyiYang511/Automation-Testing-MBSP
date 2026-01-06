@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>staff-approval stage (all approved)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a698049c-3b6d-4577-83e1-d41109db982f</testCaseGuid>
+</TestCaseEntity>
