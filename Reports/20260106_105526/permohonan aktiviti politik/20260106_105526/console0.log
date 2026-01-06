@@ -1,0 +1,189 @@
+2026-01-06 10:55:31.319 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\bellaa\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 10:55:31.327 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\bellaa\OneDrive\Desktop\Automation-Testing-MBSP\Automation-Testing-MBSP\Include\config\log.properties
+2026-01-06 10:55:31.563 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/permohonan aktiviti politik
+2026-01-06 10:55:31.731 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = bella nordin
+2026-01-06 10:55:31.732 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Automation-Testing-MBSP
+2026-01-06 10:55:31.733 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bellaa - DESKTOP-T6ADH9V
+2026-01-06 10:55:31.734 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-06 10:55:31.735 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.166
+2026-01-06 10:55:31.736 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2026-01-06 10:55:32.471 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:55:32.471 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/ketua-jabatan-approval
+2026-01-06 10:55:33.126 DEBUG testcase.ketua-jabatan-approval          - 1: openBrowser("")
+2026-01-06 10:55:33.571 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:55:33.662 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:55:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:55:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:55:36.940 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3d9d06702b849851cc9fea87c86ef9dd
+2026-01-06 10:55:36.941 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 10:55:36.942 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 10:55:36.942 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:55:36.957 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:55:37.034 DEBUG testcase.ketua-jabatan-approval          - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 10:55:38.526 DEBUG testcase.ketua-jabatan-approval          - 3: click(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Log Masuk/input__no_ktgn"))
+2026-01-06 10:55:39.278 DEBUG testcase.ketua-jabatan-approval          - 4: setText(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Log Masuk/input__no_ktgn"), "30006")
+2026-01-06 10:55:49.386 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-01-06 10:55:49.854 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-01-06 10:55:49.943 DEBUG testcase.ketua-jabatan-approval          - 5: setEncryptedText(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 10:55:50.449 DEBUG testcase.ketua-jabatan-approval          - 6: click(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 10:55:51.161 DEBUG testcase.ketua-jabatan-approval          - 7: click(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 10:55:55.190 DEBUG testcase.ketua-jabatan-approval          - 8: click(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 10:55:56.900 DEBUG testcase.ketua-jabatan-approval          - 9: click(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 10:55:58.266 DEBUG testcase.ketua-jabatan-approval          - 10: click(findTestObject("Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 10:56:08.755 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at ketua-jabatan-approval.run(ketua-jabatan-approval:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767668126239.run(TempTestSuite1767668126239.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' located by 'By.xpath: //table[@id='kelulusan-table']/tbody/tr[2]/td[8]/span/div[2]/a' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1767667103959.run(Script1767667103959.groovy:40)
+	... 15 more
+)
+2026-01-06 10:56:08.770 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Permohonan Aktiviti Politik/ketua-jabatan-approval FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at ketua-jabatan-approval.run(ketua-jabatan-approval:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767668126239.run(TempTestSuite1767668126239.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/permohonan-aktiviti-politik-approval/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' located by 'By.xpath: //table[@id='kelulusan-table']/tbody/tr[2]/td[8]/span/div[2]/a' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-06 10:56:08.779 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/ketua-jabatan-approval
+2026-01-06 10:56:08.792 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:56:08.793 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/Staff-mohon
+2026-01-06 10:56:08.934 DEBUG testcase.Staff-mohon                     - 1: openBrowser("")
+2026-01-06 10:56:08.945 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 10:56:09.213 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:56:09.217 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:56:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:56:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:56:10.689 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ceb0876b0552ce244fd11151faf48b96
+2026-01-06 10:56:10.690 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 10:56:10.691 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 10:56:10.693 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:56:10.694 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:56:10.739 DEBUG testcase.Staff-mohon                     - 2: closeBrowser()
+2026-01-06 10:56:10.978 DEBUG testcase.Staff-mohon                     - 3: openBrowser("")
+2026-01-06 10:56:10.986 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 10:56:10.988 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 10:56:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 10:56:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 10:56:12.107 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7ca4c0f899a5ec282ad9565f2cae9616
+2026-01-06 10:56:12.108 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 10:56:12.109 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 10:56:12.110 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 10:56:12.112 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 10:56:12.157 DEBUG testcase.Staff-mohon                     - 4: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 10:56:13.484 DEBUG testcase.Staff-mohon                     - 5: setText(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Log Masuk/input__no_ktgn"), "99999")
+2026-01-06 10:56:14.447 DEBUG testcase.Staff-mohon                     - 6: setEncryptedText(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 10:56:15.307 DEBUG testcase.Staff-mohon                     - 7: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 10:56:18.886 DEBUG testcase.Staff-mohon                     - 8: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Dashboard/a__dash-head-link arrow-none me-0"))
+2026-01-06 10:56:19.492 DEBUG testcase.Staff-mohon                     - 9: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Dashboard/span_Analisis_dash-mtext"))
+2026-01-06 10:56:21.896 DEBUG testcase.Staff-mohon                     - 10: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 10:56:23.712 DEBUG testcase.Staff-mohon                     - 11: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Pemakluman Penglibatan Politik/span"))
+2026-01-06 10:56:25.825 DEBUG testcase.Staff-mohon                     - 12: selectOptionByValue(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "hold_party_office", true)
+2026-01-06 10:56:27.452 DEBUG testcase.Staff-mohon                     - 13: setText(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "UMNO")
+2026-01-06 10:56:28.711 DEBUG testcase.Staff-mohon                     - 14: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 10:56:29.206 DEBUG testcase.Staff-mohon                     - 15: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 10:56:32.629 DEBUG testcase.Staff-mohon                     - 16: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Pemakluman Penglibatan Politik/a__mx-3 btn btn-sm d-flex align-items-cente_89f6a6"))
+2026-01-06 10:56:33.980 DEBUG testcase.Staff-mohon                     - 17: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Pemakluman Penglibatan Politik/button_Lihat Butiran Pemakluman Penglibatan_bf6d77"))
+2026-01-06 10:56:35.206 DEBUG testcase.Staff-mohon                     - 18: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Pemakluman Penglibatan Politik/a__btn btn-sm btn-icon d-flex align-items-c_163dfb"))
+2026-01-06 10:56:36.744 DEBUG testcase.Staff-mohon                     - 19: setText(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Kemaskini Permohonan Aktiviti Politik/input__party_name"), "BN")
+2026-01-06 10:56:38.261 DEBUG testcase.Staff-mohon                     - 20: click(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Kemaskini Permohonan Aktiviti Politik/button_Kembali_btnSubmit"))
+2026-01-06 10:56:39.022 DEBUG testcase.Staff-mohon                     - 21: doubleClick(findTestObject("Object Repository/permohonan-aktiviti-politik/Page_MBSP - Pemakluman Penglibatan Politik/td"))
+2026-01-06 10:56:45.073 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/Staff-mohon
+2026-01-06 10:56:45.494 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-06 10:56:45.494 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/permohonan aktiviti politik
+2026-01-06 10:56:45.494 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

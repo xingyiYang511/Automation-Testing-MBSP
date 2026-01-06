@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PAP 2" time="45.552" tests="2" failures="0" errors="0">
+   <testsuite name="PAP 2" tests="2" failures="0" errors="0" time="45.552" skipped="0" timestamp="2026-01-06T05:39:10.841Z" hostname="bellaa - DESKTOP-T6ADH9V" id="Test Suites/PAP 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\bellaa\\OneDrive\\Desktop\\Automation-Testing-MBSP\\Automation-Testing-MBSP\\Reports\\20260106_133906\\PAP 2\\20260106_133906"/>
+         <property name="logFiles" value="C:\\Users\\bellaa\\OneDrive\\Desktop\\Automation-Testing-MBSP\\Automation-Testing-MBSP\\Reports\\20260106_133906\\PAP 2\\20260106_133906\\console0.log, C:\\Users\\bellaa\\OneDrive\\Desktop\\Automation-Testing-MBSP\\Automation-Testing-MBSP\\Reports\\20260106_133906\\PAP 2\\20260106_133906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bellaa - DESKTOP-T6ADH9V"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.1.0"/>
+         <property name="browser" value="Chrome 143.0.7499.170"/>
+         <property name="userFullName" value="bella nordin"/>
+         <property name="hostAddress" value="192.168.0.166"/>
+         <property name="sessionId" value="fada2cb72a6c9a3e5b89136b75e3accd"/>
+         <property name="projectName" value="Automation-Testing-MBSP"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Permohonan Aktiviti Politik/jana surat" time="14.949" classname="Test Cases/Permohonan Aktiviti Politik/jana surat" status="PASSED">
+         <system-out><![CDATA[06-01-2026T13:39:11 - [TEST_CASE][PASSED] - Test Cases/Permohonan Aktiviti Politik/jana surat: Test Cases/Permohonan Aktiviti Politik/jana surat
+
+06-01-2026T13:39:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T13:39:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T13:39:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T13:39:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T13:39:15 - [TEST_STEP][PASSED] - navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr"): Navigate to 'https://mbsphr-dev.veecotech.com.my/internal-login-hr' successfully
+
+06-01-2026T13:39:16 - [MESSAGE][PASSED] - Navigate to 'https://mbsphr-dev.veecotech.com.my/internal-login-hr' successfully
+
+06-01-2026T13:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__no_ktgn"), "99999"): Text '99999' is set on object 'Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__no_ktgn'
+
+06-01-2026T13:39:17 - [MESSAGE][PASSED] - Text '99999' is set on object 'Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__no_ktgn'
+
+06-01-2026T13:39:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A=="): Text ****** has been set on object 'Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__password'
+
+06-01-2026T13:39:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__password'
+
+06-01-2026T13:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/button__login_button")): Object: 'Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/button__login_button' is clicked on
+
+06-01-2026T13:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/button__login_button' is clicked on
+
+06-01-2026T13:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext")): Object: 'Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext' is clicked on
+
+06-01-2026T13:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext' is clicked on
+
+06-01-2026T13:39:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext")): Object: 'Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext' is clicked on
+
+06-01-2026T13:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext' is clicked on
+
+06-01-2026T13:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/i__ti ti-eye text-white")): Object: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/i__ti ti-eye text-white' is clicked on
+
+06-01-2026T13:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/i__ti ti-eye text-white' is clicked on
+
+06-01-2026T13:39:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4")): Object: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4' is clicked on
+
+06-01-2026T13:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4' is clicked on
+
+06-01-2026T13:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Permohonan anda telah diluluskan_btn btn-_85b4d2")): Object: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Permohonan anda telah diluluskan_btn btn-_85b4d2' is clicked on
+
+06-01-2026T13:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Permohonan anda telah diluluskan_btn btn-_85b4d2' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject)" time="29.852" classname="Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject)" status="PASSED">
+         <system-out><![CDATA[06-01-2026T13:39:26 - [TEST_CASE][PASSED] - Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject): Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject)
+
+06-01-2026T13:39:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2026T13:39:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-01-2026T13:39:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2026T13:39:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2026T13:39:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2026T13:39:28 - [TEST_STEP][PASSED] - navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr"): Navigate to 'https://mbsphr-dev.veecotech.com.my/internal-login-hr' successfully
+
+06-01-2026T13:39:29 - [MESSAGE][PASSED] - Navigate to 'https://mbsphr-dev.veecotech.com.my/internal-login-hr' successfully
+
+06-01-2026T13:39:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "11111"): Text '11111' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn'
+
+06-01-2026T13:39:30 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn'
+
+06-01-2026T13:39:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A=="): Text ****** has been set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password'
+
+06-01-2026T13:39:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password'
+
+06-01-2026T13:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button' is clicked on
+
+06-01-2026T13:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button' is clicked on
+
+06-01-2026T13:39:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext' is clicked on
+
+06-01-2026T13:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext' is clicked on
+
+06-01-2026T13:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext' is clicked on
+
+06-01-2026T13:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext' is clicked on
+
+06-01-2026T13:39:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Eksport_btn btn-sm btn-secondary")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Eksport_btn btn-sm btn-secondary' is clicked on
+
+06-01-2026T13:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Eksport_btn btn-sm btn-secondary' is clicked on
+
+06-01-2026T13:39:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "hold_party_office", true): All options with value 'hold_party_office' are selected in object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type'  using regular expression
+
+06-01-2026T13:39:38 - [MESSAGE][PASSED] - All options with value 'hold_party_office' are selected in object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type'  using regular expression
+
+06-01-2026T13:39:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "TRY"): Text 'TRY' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name'
+
+06-01-2026T13:39:39 - [MESSAGE][PASSED] - Text 'TRY' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name'
+
+06-01-2026T13:39:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Bahagian  Cawangan_party_branch"), "TEST"): Text 'TEST' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Bahagian  Cawangan_party_branch'
+
+06-01-2026T13:39:39 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Bahagian  Cawangan_party_branch'
+
+06-01-2026T13:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge' is clicked on
+
+06-01-2026T13:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge' is clicked on
+
+06-01-2026T13:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4' is clicked on
+
+06-01-2026T13:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4' is clicked on
+
+06-01-2026T13:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2' is clicked on
+
+06-01-2026T13:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2' is clicked on
+
+06-01-2026T13:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item' is clicked on
+
+06-01-2026T13:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item' is clicked on
+
+06-01-2026T13:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "30006"): Text '30006' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn'
+
+06-01-2026T13:39:47 - [MESSAGE][PASSED] - Text '30006' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn'
+
+06-01-2026T13:39:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A=="): Text ****** has been set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password'
+
+06-01-2026T13:39:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password'
+
+06-01-2026T13:39:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button' is clicked on
+
+06-01-2026T13:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button' is clicked on
+
+06-01-2026T13:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext' is clicked on
+
+06-01-2026T13:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext' is clicked on
+
+06-01-2026T13:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext' is clicked on
+
+06-01-2026T13:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext' is clicked on
+
+06-01-2026T13:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab' is clicked on
+
+06-01-2026T13:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab' is clicked on
+
+06-01-2026T13:39:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' is clicked on
+
+06-01-2026T13:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' is clicked on
+
+06-01-2026T13:39:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "reject", true): All options with value 'reject' are selected in object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision'  using regular expression
+
+06-01-2026T13:39:55 - [MESSAGE][PASSED] - All options with value 'reject' are selected in object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision'  using regular expression
+
+06-01-2026T13:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks"), "TIDAK BOLEH"): Text 'TIDAK BOLEH' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks'
+
+06-01-2026T13:39:56 - [MESSAGE][PASSED] - Text 'TIDAK BOLEH' is set on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks'
+
+06-01-2026T13:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary")): Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary' is clicked on
+
+06-01-2026T13:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-01-2026T13:39:10 - [TEST_SUITE][PASSED] - PAP 2: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PAP 2,Chrome 143.0.7499.170,,,06-01-2026 13:39:10,06-01-2026 13:39:56,45.881s,PASSED
+,,,,,,,
+Test Cases/Permohonan Aktiviti Politik/jana surat,Chrome 143.0.7499.170,,,06-01-2026 13:39:11,06-01-2026 13:39:26,14.949s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,06-01-2026 13:39:12,06-01-2026 13:39:15,3.052s,PASSED
+"navigateToUrl(""https://mbsphr-dev.veecotech.com.my/internal-login-hr"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:15,06-01-2026 13:39:16,1.621s,PASSED
+"setText(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__no_ktgn""), ""99999"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:16,06-01-2026 13:39:17,1.063s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__password""), ""ReS8CS55u3r9nXfefBFv2A=="")",Chrome 143.0.7499.170,,,06-01-2026 13:39:17,06-01-2026 13:39:18,0.406s,PASSED
+"click(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/button__login_button""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:18,06-01-2026 13:39:21,3.146s,PASSED
+"click(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:21,06-01-2026 13:39:22,0.600s,PASSED
+"click(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:22,06-01-2026 13:39:23,1.412s,PASSED
+"click(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/i__ti ti-eye text-white""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:23,06-01-2026 13:39:24,1.016s,PASSED
+"click(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:24,06-01-2026 13:39:25,1.050s,PASSED
+"click(findTestObject(""Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Permohonan anda telah diluluskan_btn btn-_85b4d2""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:25,06-01-2026 13:39:26,1.045s,PASSED
+,,,,,,,
+Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject),Chrome 143.0.7499.170,,,06-01-2026 13:39:26,06-01-2026 13:39:56,29.852s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,06-01-2026 13:39:26,06-01-2026 13:39:28,1.340s,PASSED
+"navigateToUrl(""https://mbsphr-dev.veecotech.com.my/internal-login-hr"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:28,06-01-2026 13:39:29,1.138s,PASSED
+"setText(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn""), ""11111"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:29,06-01-2026 13:39:30,0.962s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password""), ""ReS8CS55u3r9nXfefBFv2A=="")",Chrome 143.0.7499.170,,,06-01-2026 13:39:30,06-01-2026 13:39:30,0.386s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:30,06-01-2026 13:39:33,3.187s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:33,06-01-2026 13:39:34,0.594s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:34,06-01-2026 13:39:35,1.254s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Eksport_btn btn-sm btn-secondary""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:35,06-01-2026 13:39:37,1.794s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type""), ""hold_party_office"", true)",Chrome 143.0.7499.170,,,06-01-2026 13:39:37,06-01-2026 13:39:38,1.150s,PASSED
+"setText(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name""), ""TRY"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:38,06-01-2026 13:39:39,0.647s,PASSED
+"setText(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Bahagian  Cawangan_party_branch""), ""TEST"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:39,06-01-2026 13:39:39,0.669s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:39,06-01-2026 13:39:40,0.388s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:40,06-01-2026 13:39:40,0.343s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:40,06-01-2026 13:39:44,3.951s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:44,06-01-2026 13:39:44,0.347s,PASSED
+"setText(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn""), ""30006"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:44,06-01-2026 13:39:47,2.176s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password""), ""ReS8CS55u3r9nXfefBFv2A=="")",Chrome 143.0.7499.170,,,06-01-2026 13:39:47,06-01-2026 13:39:47,0.364s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:47,06-01-2026 13:39:49,2.084s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:49,06-01-2026 13:39:50,0.561s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:50,06-01-2026 13:39:51,1.371s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:51,06-01-2026 13:39:52,0.889s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:52,06-01-2026 13:39:54,1.781s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision""), ""reject"", true)",Chrome 143.0.7499.170,,,06-01-2026 13:39:54,06-01-2026 13:39:55,1.065s,PASSED
+"setText(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks""), ""TIDAK BOLEH"")",Chrome 143.0.7499.170,,,06-01-2026 13:39:55,06-01-2026 13:39:56,0.876s,PASSED
+"click(findTestObject(""Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary""))",Chrome 143.0.7499.170,,,06-01-2026 13:39:56,06-01-2026 13:39:56,0.341s,PASSED

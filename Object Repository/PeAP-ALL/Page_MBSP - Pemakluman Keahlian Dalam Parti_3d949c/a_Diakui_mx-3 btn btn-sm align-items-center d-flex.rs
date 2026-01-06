@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Diakui_mx-3 btn btn-sm align-items-center d-flex</name>
+   <tag></tag>
+   <elementGuidId>9fe17b3c-ac48-45b6-a22d-078f46c070a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='permohonan-table']/tbody/tr/td[5]/span/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.action-btn.bg-secondary.ms-2 > a.mx-3.btn.btn-sm.align-items-center.d-flex</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>042cd494-cd59-4651-ab06-b35f3d148887</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-notification/1/surat-kelulusan/generate</value>
+      <webElementGuid>9f98f00e-967f-4bd9-bdb0-95eb1ebd3297</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx-3 btn btn-sm align-items-center d-flex</value>
+      <webElementGuid>c4d48d74-bb8c-4357-94c2-32f3b560ee32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>f9dbb77b-875b-40e1-8984-091e1aa5b05c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-original-title</name>
+      <type>Main</type>
+      <value>Muat Turun</value>
+      <webElementGuid>fff886f9-3b8c-4c14-94a5-6330c5beece9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip249733</value>
+      <webElementGuid>ed11b209-0aa4-4c17-8322-64614f1ac410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;permohonan-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/span[@class=&quot;d-inline-flex align-items-center&quot;]/div[@class=&quot;action-btn bg-secondary ms-2&quot;]/a[@class=&quot;mx-3 btn btn-sm align-items-center d-flex&quot;]</value>
+      <webElementGuid>2c88f576-b4b6-4965-bda6-1b1b1e0bd84c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='permohonan-table']/tbody/tr/td[5]/span/div[2]/a</value>
+      <webElementGuid>7a872668-5ae2-4ea9-9bf3-fd2df2503278</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diakui'])[1]/following::a[2]</value>
+      <webElementGuid>290f5133-ce36-4b15-af57-8268e320dcaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAP'])[1]/following::a[2]</value>
+      <webElementGuid>b6ddf034-4a01-40bd-9a7a-f5512429252b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tunjuk 1 hingga 1 daripada 1 entri'])[1]/preceding::a[1]</value>
+      <webElementGuid>d2b66268-2082-45ee-bd1e-4b7186806110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sebelumnya'])[1]/preceding::a[1]</value>
+      <webElementGuid>05f03c24-19e0-4e95-83bd-8749328b29a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-notification/1/surat-kelulusan/generate')]</value>
+      <webElementGuid>b78eae83-ded7-40bd-8d4e-a7a8a16eaed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div[2]/a</value>
+      <webElementGuid>5bd87296-be60-44b6-a815-5e60c8fc3129</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://mbsphr-dev.veecotech.com.my/integriti-tatatertib/political-involvement-notification/1/surat-kelulusan/generate']</value>
+      <webElementGuid>3c3f5fad-0e17-432f-a7d2-686b554d7cf4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

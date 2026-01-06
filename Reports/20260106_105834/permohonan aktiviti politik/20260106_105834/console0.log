@@ -1,0 +1,12 @@
+2026-01-06 10:58:38.801 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\bellaa\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 10:58:38.806 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\bellaa\OneDrive\Desktop\Automation-Testing-MBSP\Automation-Testing-MBSP\Include\config\log.properties
+2026-01-06 10:58:39.035 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/permohonan aktiviti politik
+2026-01-06 10:58:39.240 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = bella nordin
+2026-01-06 10:58:39.242 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Automation-Testing-MBSP
+2026-01-06 10:58:39.243 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bellaa - DESKTOP-T6ADH9V
+2026-01-06 10:58:39.244 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-06 10:58:39.245 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.166
+2026-01-06 10:58:39.247 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2026-01-06 10:58:40.006 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 10:58:40.006 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/ketua-jabatan-approval
+2026-01-06 10:58:40.736 DEBUG testcase.ketua-jabatan-approval          - 1: openBrowser("")

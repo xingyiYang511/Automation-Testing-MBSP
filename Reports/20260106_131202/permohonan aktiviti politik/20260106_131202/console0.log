@@ -1,0 +1,549 @@
+2026-01-06 13:12:06.406 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\bellaa\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 13:12:06.411 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\bellaa\OneDrive\Desktop\Automation-Testing-MBSP\Automation-Testing-MBSP\Include\config\log.properties
+2026-01-06 13:12:06.673 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/permohonan aktiviti politik
+2026-01-06 13:12:06.906 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = bella nordin
+2026-01-06 13:12:06.908 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Automation-Testing-MBSP
+2026-01-06 13:12:06.910 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bellaa - DESKTOP-T6ADH9V
+2026-01-06 13:12:06.911 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-06 13:12:06.912 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.166
+2026-01-06 13:12:06.913 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2026-01-06 13:12:07.934 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:12:07.934 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/jana surat
+2026-01-06 13:12:08.681 DEBUG testcase.jana surat                      - 1: openBrowser("")
+2026-01-06 13:12:09.028 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:12:09.098 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:12:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:12:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:12:11.812 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 75bd01ba90be2acc769b31ebdcf03de1
+2026-01-06 13:12:11.814 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:12:11.814 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:12:11.815 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:12:11.826 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:12:11.879 DEBUG testcase.jana surat                      - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:12:13.213 DEBUG testcase.jana surat                      - 3: setText(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__no_ktgn"), "11111")
+2026-01-06 13:12:14.242 DEBUG testcase.jana surat                      - 4: setEncryptedText(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:12:14.648 DEBUG testcase.jana surat                      - 5: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:12:15.022 DEBUG testcase.jana surat                      - 6: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:12:18.769 DEBUG testcase.jana surat                      - 7: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:12:20.076 DEBUG testcase.jana surat                      - 8: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a__mx-3 btn btn-sm d-flex align-items-cente_89f6a6"))
+2026-01-06 13:12:21.202 DEBUG testcase.jana surat                      - 9: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4"))
+2026-01-06 13:12:31.800 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at jana surat.run(jana surat:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767676322286.run(TempTestSuite1767676322286.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4' located by 'By.xpath: //div[@id='view_modal_body']/div/div/div[5]/div/a[2]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1767672887815.run(Script1767672887815.groovy:36)
+	... 15 more
+)
+2026-01-06 13:12:31.805 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Permohonan Aktiviti Politik/jana surat FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at jana surat.run(jana surat:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767676322286.run(TempTestSuite1767676322286.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4' located by 'By.xpath: //div[@id='view_modal_body']/div/div/div[5]/div/a[2]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-06 13:12:31.806 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/jana surat
+2026-01-06 13:12:31.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:12:31.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/staff-approval stage (all approved)
+2026-01-06 13:12:31.996 DEBUG t.staff-approval stage (all approved)    - 1: openBrowser("")
+2026-01-06 13:12:32.005 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 13:12:32.340 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:12:32.342 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:12:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:12:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:12:33.706 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f7979c691efc2148d83487409250d454
+2026-01-06 13:12:33.707 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:12:33.707 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:12:33.708 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:12:33.709 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:12:33.731 DEBUG t.staff-approval stage (all approved)    - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:12:34.861 DEBUG t.staff-approval stage (all approved)    - 3: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__no_ktgn"))
+2026-01-06 13:12:35.382 DEBUG t.staff-approval stage (all approved)    - 4: setText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__no_ktgn"), "99999")
+2026-01-06 13:12:36.042 DEBUG t.staff-approval stage (all approved)    - 5: setEncryptedText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:12:36.453 DEBUG t.staff-approval stage (all approved)    - 6: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:12:39.424 DEBUG t.staff-approval stage (all approved)    - 7: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:12:40.025 DEBUG t.staff-approval stage (all approved)    - 8: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:12:41.287 DEBUG t.staff-approval stage (all approved)    - 9: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/span"))
+2026-01-06 13:12:42.998 DEBUG t.staff-approval stage (all approved)    - 10: selectOptionByValue(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "hold_party_office", true)
+2026-01-06 13:12:44.100 DEBUG t.staff-approval stage (all approved)    - 11: setText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "MUDA")
+2026-01-06 13:12:44.761 DEBUG t.staff-approval stage (all approved)    - 12: setText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Bahagian  Cawangan_party_branch"), "MUAR")
+2026-01-06 13:12:45.485 DEBUG t.staff-approval stage (all approved)    - 13: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 13:12:45.845 DEBUG t.staff-approval stage (all approved)    - 14: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 13:12:48.648 DEBUG t.staff-approval stage (all approved)    - 15: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2"))
+2026-01-06 13:12:49.599 DEBUG t.staff-approval stage (all approved)    - 16: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item"))
+2026-01-06 13:12:51.305 DEBUG t.staff-approval stage (all approved)    - 17: setText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__no_ktgn"), "30006")
+2026-01-06 13:12:52.188 DEBUG t.staff-approval stage (all approved)    - 18: setEncryptedText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:12:52.560 DEBUG t.staff-approval stage (all approved)    - 19: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:12:54.511 DEBUG t.staff-approval stage (all approved)    - 20: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:12:55.075 DEBUG t.staff-approval stage (all approved)    - 21: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:12:56.218 DEBUG t.staff-approval stage (all approved)    - 22: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:12:57.087 DEBUG t.staff-approval stage (all approved)    - 23: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:12:58.832 DEBUG t.staff-approval stage (all approved)    - 24: selectOptionByValue(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:12:59.869 DEBUG t.staff-approval stage (all approved)    - 25: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:13:00.436 DEBUG t.staff-approval stage (all approved)    - 26: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/span_Sejarah dan Rekod Buku Perkhidmatan_da_f953a4"))
+2026-01-06 13:13:09.264 DEBUG t.staff-approval stage (all approved)    - 27: setText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__no_ktgn"), "88888")
+2026-01-06 13:13:10.123 DEBUG t.staff-approval stage (all approved)    - 28: setEncryptedText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:13:10.478 DEBUG t.staff-approval stage (all approved)    - 29: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:13:13.062 DEBUG t.staff-approval stage (all approved)    - 30: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext_1"))
+2026-01-06 13:13:13.651 DEBUG t.staff-approval stage (all approved)    - 31: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:13:14.818 DEBUG t.staff-approval stage (all approved)    - 32: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:13:15.799 DEBUG t.staff-approval stage (all approved)    - 33: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:13:17.555 DEBUG t.staff-approval stage (all approved)    - 34: selectOptionByValue(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:13:18.607 DEBUG t.staff-approval stage (all approved)    - 35: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:13:19.158 DEBUG t.staff-approval stage (all approved)    - 36: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/span_Sejarah dan Rekod Buku Perkhidmatan_da_f953a4"))
+2026-01-06 13:13:24.911 DEBUG t.staff-approval stage (all approved)    - 37: setText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__no_ktgn"), "30004")
+2026-01-06 13:13:25.757 DEBUG t.staff-approval stage (all approved)    - 38: setEncryptedText(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:13:26.106 DEBUG t.staff-approval stage (all approved)    - 39: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:13:28.201 DEBUG t.staff-approval stage (all approved)    - 40: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:13:28.748 DEBUG t.staff-approval stage (all approved)    - 41: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:13:29.868 DEBUG t.staff-approval stage (all approved)    - 42: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:13:30.821 DEBUG t.staff-approval stage (all approved)    - 43: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:13:32.670 DEBUG t.staff-approval stage (all approved)    - 44: selectOptionByValue(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:13:33.705 DEBUG t.staff-approval stage (all approved)    - 45: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:13:34.219 DEBUG t.staff-approval stage (all approved)    - 46: click(findTestObject("Object Repository/PAP-ALL/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:13:37.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/staff-approval stage (all approved)
+2026-01-06 13:13:37.736 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:13:37.736 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/staff-approval stage (all approved-bersara)
+2026-01-06 13:13:37.876 DEBUG ff-approval stage (all approved-bersara) - 1: openBrowser("")
+2026-01-06 13:13:37.881 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 13:13:38.106 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:13:38.108 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:13:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:13:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:13:39.463 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 84e2e19ac2b6226878ec4428b969f07f
+2026-01-06 13:13:39.463 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:13:39.465 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:13:39.465 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:13:39.466 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:13:39.494 DEBUG ff-approval stage (all approved-bersara) - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:13:40.643 DEBUG ff-approval stage (all approved-bersara) - 3: setText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__no_ktgn"), "11111")
+2026-01-06 13:13:50.685 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-01-06 13:13:50.740 DEBUG ff-approval stage (all approved-bersara) - 4: setEncryptedText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:13:51.151 DEBUG ff-approval stage (all approved-bersara) - 5: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:13:51.516 DEBUG ff-approval stage (all approved-bersara) - 6: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:13:55.438 DEBUG ff-approval stage (all approved-bersara) - 7: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:13:56.692 DEBUG ff-approval stage (all approved-bersara) - 8: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/a_Eksport_btn btn-sm btn-secondary"))
+2026-01-06 13:13:58.490 DEBUG ff-approval stage (all approved-bersara) - 9: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "pre_retirement_activity", true)
+2026-01-06 13:13:59.521 DEBUG ff-approval stage (all approved-bersara) - 10: setText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "DAP")
+2026-01-06 13:14:00.354 DEBUG ff-approval stage (all approved-bersara) - 11: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 13:14:00.721 DEBUG ff-approval stage (all approved-bersara) - 12: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 13:14:01.044 DEBUG ff-approval stage (all approved-bersara) - 13: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2"))
+2026-01-06 13:14:01.411 DEBUG ff-approval stage (all approved-bersara) - 14: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item"))
+2026-01-06 13:14:01.734 DEBUG ff-approval stage (all approved-bersara) - 15: setText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__no_ktgn"), "30006")
+2026-01-06 13:14:04.159 DEBUG ff-approval stage (all approved-bersara) - 16: setEncryptedText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:14:04.491 DEBUG ff-approval stage (all approved-bersara) - 17: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:14:06.836 DEBUG ff-approval stage (all approved-bersara) - 18: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:14:07.402 DEBUG ff-approval stage (all approved-bersara) - 19: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:14:08.613 DEBUG ff-approval stage (all approved-bersara) - 20: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:14:09.493 DEBUG ff-approval stage (all approved-bersara) - 21: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:14:11.289 DEBUG ff-approval stage (all approved-bersara) - 22: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:14:12.281 DEBUG ff-approval stage (all approved-bersara) - 23: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:14:12.887 DEBUG ff-approval stage (all approved-bersara) - 24: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/span_Sejarah dan Rekod Buku Perkhidmatan_da_f953a4"))
+2026-01-06 13:14:18.271 DEBUG ff-approval stage (all approved-bersara) - 25: setText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__no_ktgn"), "88888")
+2026-01-06 13:14:19.102 DEBUG ff-approval stage (all approved-bersara) - 26: setEncryptedText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:14:19.492 DEBUG ff-approval stage (all approved-bersara) - 27: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:14:21.500 DEBUG ff-approval stage (all approved-bersara) - 28: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext_1"))
+2026-01-06 13:14:22.086 DEBUG ff-approval stage (all approved-bersara) - 29: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:14:23.254 DEBUG ff-approval stage (all approved-bersara) - 30: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:14:24.098 DEBUG ff-approval stage (all approved-bersara) - 31: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:14:26.150 DEBUG ff-approval stage (all approved-bersara) - 32: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:14:27.182 DEBUG ff-approval stage (all approved-bersara) - 33: setText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks"), "BAGUS")
+2026-01-06 13:14:28.005 DEBUG ff-approval stage (all approved-bersara) - 34: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:14:28.311 DEBUG ff-approval stage (all approved-bersara) - 35: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/span_Sejarah dan Rekod Buku Perkhidmatan_da_f953a4"))
+2026-01-06 13:14:32.663 DEBUG ff-approval stage (all approved-bersara) - 36: setText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__no_ktgn"), "30004")
+2026-01-06 13:14:33.429 DEBUG ff-approval stage (all approved-bersara) - 37: setEncryptedText(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:14:33.766 DEBUG ff-approval stage (all approved-bersara) - 38: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:14:35.785 DEBUG ff-approval stage (all approved-bersara) - 39: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:14:36.315 DEBUG ff-approval stage (all approved-bersara) - 40: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:14:37.473 DEBUG ff-approval stage (all approved-bersara) - 41: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:14:38.333 DEBUG ff-approval stage (all approved-bersara) - 42: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:14:40.119 DEBUG ff-approval stage (all approved-bersara) - 43: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:14:41.145 DEBUG ff-approval stage (all approved-bersara) - 44: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:14:41.660 DEBUG ff-approval stage (all approved-bersara) - 45: click(findTestObject("Object Repository/PAP-ALL (BERSARA)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:14:44.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/staff-approval stage (all approved-bersara)
+2026-01-06 13:14:44.663 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:14:44.663 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/staff-approval stage (db reject)
+2026-01-06 13:14:44.773 DEBUG t.staff-approval stage (db reject)       - 1: openBrowser("")
+2026-01-06 13:14:44.779 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 13:14:44.998 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:14:44.999 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:14:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:14:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:14:46.281 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b53cb38c65f0372bdfe67e58aac2d673
+2026-01-06 13:14:46.281 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:14:46.282 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:14:46.282 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:14:46.283 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:14:46.303 DEBUG t.staff-approval stage (db reject)       - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:14:47.445 DEBUG t.staff-approval stage (db reject)       - 3: setText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "11111")
+2026-01-06 13:14:48.180 DEBUG t.staff-approval stage (db reject)       - 4: setEncryptedText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:14:48.555 DEBUG t.staff-approval stage (db reject)       - 5: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:14:48.890 DEBUG t.staff-approval stage (db reject)       - 6: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:14:53.396 DEBUG t.staff-approval stage (db reject)       - 7: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:14:54.739 DEBUG t.staff-approval stage (db reject)       - 8: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span"))
+2026-01-06 13:14:56.399 DEBUG t.staff-approval stage (db reject)       - 9: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "hold_party_office", true)
+2026-01-06 13:14:57.423 DEBUG t.staff-approval stage (db reject)       - 10: setText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "TEST")
+2026-01-06 13:14:58.084 DEBUG t.staff-approval stage (db reject)       - 11: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 13:14:58.431 DEBUG t.staff-approval stage (db reject)       - 12: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 13:14:58.750 DEBUG t.staff-approval stage (db reject)       - 13: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2"))
+2026-01-06 13:15:02.417 DEBUG t.staff-approval stage (db reject)       - 14: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item"))
+2026-01-06 13:15:02.756 DEBUG t.staff-approval stage (db reject)       - 15: setText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "30006")
+2026-01-06 13:15:04.909 DEBUG t.staff-approval stage (db reject)       - 16: setEncryptedText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:15:05.278 DEBUG t.staff-approval stage (db reject)       - 17: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:15:07.465 DEBUG t.staff-approval stage (db reject)       - 18: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:15:08.018 DEBUG t.staff-approval stage (db reject)       - 19: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:15:09.172 DEBUG t.staff-approval stage (db reject)       - 20: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:15:10.056 DEBUG t.staff-approval stage (db reject)       - 21: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:15:11.809 DEBUG t.staff-approval stage (db reject)       - 22: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:15:12.814 DEBUG t.staff-approval stage (db reject)       - 23: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:15:13.341 DEBUG t.staff-approval stage (db reject)       - 24: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Sejarah dan Rekod Buku Perkhidmatan_da_f953a4"))
+2026-01-06 13:15:19.533 DEBUG t.staff-approval stage (db reject)       - 25: setText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "88888")
+2026-01-06 13:15:20.410 DEBUG t.staff-approval stage (db reject)       - 26: setEncryptedText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:15:20.768 DEBUG t.staff-approval stage (db reject)       - 27: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:15:22.828 DEBUG t.staff-approval stage (db reject)       - 28: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext_1"))
+2026-01-06 13:15:23.375 DEBUG t.staff-approval stage (db reject)       - 29: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:15:24.509 DEBUG t.staff-approval stage (db reject)       - 30: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:15:25.370 DEBUG t.staff-approval stage (db reject)       - 31: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:15:27.275 DEBUG t.staff-approval stage (db reject)       - 32: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:15:28.285 DEBUG t.staff-approval stage (db reject)       - 33: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:15:28.801 DEBUG t.staff-approval stage (db reject)       - 34: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Sejarah dan Rekod Buku Perkhidmatan_da_f953a4"))
+2026-01-06 13:15:34.154 DEBUG t.staff-approval stage (db reject)       - 35: setText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "30004")
+2026-01-06 13:15:34.983 DEBUG t.staff-approval stage (db reject)       - 36: setEncryptedText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:15:35.307 DEBUG t.staff-approval stage (db reject)       - 37: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:15:37.298 DEBUG t.staff-approval stage (db reject)       - 38: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:15:37.848 DEBUG t.staff-approval stage (db reject)       - 39: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:15:38.981 DEBUG t.staff-approval stage (db reject)       - 40: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:15:39.830 DEBUG t.staff-approval stage (db reject)       - 41: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:15:41.614 DEBUG t.staff-approval stage (db reject)       - 42: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "reject", true)
+2026-01-06 13:15:42.623 DEBUG t.staff-approval stage (db reject)       - 43: setText(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks"), "TESTING TESTING")
+2026-01-06 13:15:43.463 DEBUG t.staff-approval stage (db reject)       - 44: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:15:43.760 DEBUG t.staff-approval stage (db reject)       - 45: click(findTestObject("Object Repository/PAP-ALL (DB REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:15:47.486 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/staff-approval stage (db reject)
+2026-01-06 13:15:47.512 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:15:47.512 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject)
+2026-01-06 13:15:47.618 DEBUG t.staff-approval stage (kj reject)       - 1: openBrowser("")
+2026-01-06 13:15:47.621 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 13:15:47.847 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:15:47.848 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:15:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:15:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:15:48.668 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 53116bff3627f08c4595e7aa20f900e0
+2026-01-06 13:15:48.669 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:15:48.669 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:15:48.669 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:15:48.670 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:15:48.688 DEBUG t.staff-approval stage (kj reject)       - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:15:49.797 DEBUG t.staff-approval stage (kj reject)       - 3: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "11111")
+2026-01-06 13:15:50.609 DEBUG t.staff-approval stage (kj reject)       - 4: setEncryptedText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:15:51.000 DEBUG t.staff-approval stage (kj reject)       - 5: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:15:51.321 DEBUG t.staff-approval stage (kj reject)       - 6: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:15:54.712 DEBUG t.staff-approval stage (kj reject)       - 7: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:15:55.895 DEBUG t.staff-approval stage (kj reject)       - 8: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span"))
+2026-01-06 13:15:57.985 DEBUG t.staff-approval stage (kj reject)       - 9: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "pre_retirement_activity", true)
+2026-01-06 13:15:59.028 DEBUG t.staff-approval stage (kj reject)       - 10: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "PN")
+2026-01-06 13:15:59.838 DEBUG t.staff-approval stage (kj reject)       - 11: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 13:16:00.171 DEBUG t.staff-approval stage (kj reject)       - 12: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Tambah Dokumen_btnAddFile"))
+2026-01-06 13:16:00.507 DEBUG t.staff-approval stage (kj reject)       - 13: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 13:16:05.412 DEBUG t.staff-approval stage (kj reject)       - 14: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2"))
+2026-01-06 13:16:05.765 DEBUG t.staff-approval stage (kj reject)       - 15: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item"))
+2026-01-06 13:16:06.090 DEBUG t.staff-approval stage (kj reject)       - 16: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "30006")
+2026-01-06 13:16:08.403 DEBUG t.staff-approval stage (kj reject)       - 17: setEncryptedText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:16:08.729 DEBUG t.staff-approval stage (kj reject)       - 18: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:16:10.657 DEBUG t.staff-approval stage (kj reject)       - 19: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:16:11.181 DEBUG t.staff-approval stage (kj reject)       - 20: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:16:12.289 DEBUG t.staff-approval stage (kj reject)       - 21: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:16:13.208 DEBUG t.staff-approval stage (kj reject)       - 22: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:16:23.490 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at staff-approval stage (kj reject).run(staff-approval stage (kj reject):64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767676322286.run(TempTestSuite1767676322286.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' located by 'By.xpath: //table[@id='kelulusan-table']/tbody/tr/td[8]/span/div[2]/a' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1767673645633.run(Script1767673645633.groovy:64)
+	... 15 more
+)
+2026-01-06 13:16:23.496 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at staff-approval stage (kj reject).run(staff-approval stage (kj reject):64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1767676322286.run(TempTestSuite1767676322286.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c' located by 'By.xpath: //table[@id='kelulusan-table']/tbody/tr/td[8]/span/div[2]/a' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-06 13:16:23.498 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject)
+2026-01-06 13:16:23.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:16:23.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/staff-approval stage (psm reject)
+2026-01-06 13:16:23.582 DEBUG t.staff-approval stage (psm reject)      - 1: openBrowser("")
+2026-01-06 13:16:23.586 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 13:16:23.782 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:16:23.783 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:16:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:16:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:16:24.664 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2ebec4260de9e948d204277ef5357932
+2026-01-06 13:16:24.665 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:16:24.665 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:16:24.665 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:16:24.666 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:16:24.684 DEBUG t.staff-approval stage (psm reject)      - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:16:25.783 DEBUG t.staff-approval stage (psm reject)      - 3: setText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "99999")
+2026-01-06 13:16:30.956 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Error during waiting interactable: The user aborted a request.
+2026-01-06 13:16:31.329 DEBUG t.staff-approval stage (psm reject)      - 4: setEncryptedText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:16:31.692 DEBUG t.staff-approval stage (psm reject)      - 5: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:16:34.952 DEBUG t.staff-approval stage (psm reject)      - 6: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:16:35.535 DEBUG t.staff-approval stage (psm reject)      - 7: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:16:36.855 DEBUG t.staff-approval stage (psm reject)      - 8: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span"))
+2026-01-06 13:16:38.597 DEBUG t.staff-approval stage (psm reject)      - 9: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "hold_party_office", true)
+2026-01-06 13:16:39.600 DEBUG t.staff-approval stage (psm reject)      - 10: setText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "DAP")
+2026-01-06 13:16:40.189 DEBUG t.staff-approval stage (psm reject)      - 11: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 13:16:40.545 DEBUG t.staff-approval stage (psm reject)      - 12: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 13:16:40.855 DEBUG t.staff-approval stage (psm reject)      - 13: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2"))
+2026-01-06 13:16:43.945 DEBUG t.staff-approval stage (psm reject)      - 14: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item"))
+2026-01-06 13:16:44.281 DEBUG t.staff-approval stage (psm reject)      - 15: setText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "30006")
+2026-01-06 13:16:46.516 DEBUG t.staff-approval stage (psm reject)      - 16: setEncryptedText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:16:46.875 DEBUG t.staff-approval stage (psm reject)      - 17: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:16:48.801 DEBUG t.staff-approval stage (psm reject)      - 18: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:16:49.328 DEBUG t.staff-approval stage (psm reject)      - 19: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:16:50.451 DEBUG t.staff-approval stage (psm reject)      - 20: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:16:51.427 DEBUG t.staff-approval stage (psm reject)      - 21: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:16:53.159 DEBUG t.staff-approval stage (psm reject)      - 22: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "approve", true)
+2026-01-06 13:16:54.164 DEBUG t.staff-approval stage (psm reject)      - 23: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:16:54.687 DEBUG t.staff-approval stage (psm reject)      - 24: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Sejarah dan Rekod Buku Perkhidmatan_da_f953a4"))
+2026-01-06 13:17:00.648 DEBUG t.staff-approval stage (psm reject)      - 25: setText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "88888")
+2026-01-06 13:17:01.469 DEBUG t.staff-approval stage (psm reject)      - 26: setEncryptedText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:17:01.788 DEBUG t.staff-approval stage (psm reject)      - 27: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:17:03.916 DEBUG t.staff-approval stage (psm reject)      - 28: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext_1"))
+2026-01-06 13:17:04.462 DEBUG t.staff-approval stage (psm reject)      - 29: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:17:05.572 DEBUG t.staff-approval stage (psm reject)      - 30: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:17:06.446 DEBUG t.staff-approval stage (psm reject)      - 31: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:17:08.187 DEBUG t.staff-approval stage (psm reject)      - 32: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "reject", true)
+2026-01-06 13:17:09.215 DEBUG t.staff-approval stage (psm reject)      - 33: setText(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks"), "TIDAK MEMATUHI SYARAT")
+2026-01-06 13:17:10.043 DEBUG t.staff-approval stage (psm reject)      - 34: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:17:10.365 DEBUG t.staff-approval stage (psm reject)      - 35: click(findTestObject("Object Repository/PAP-ALL (PSM REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:17:13.317 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/staff-approval stage (psm reject)
+2026-01-06 13:17:13.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:17:13.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/staff-edit delete
+2026-01-06 13:17:13.389 DEBUG testcase.staff-edit delete               - 1: openBrowser("")
+2026-01-06 13:17:13.391 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 13:17:13.599 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:17:13.600 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:17:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:17:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:17:14.431 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 93deadfe9d6eac8a58a365a648a5ad29
+2026-01-06 13:17:14.432 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:17:14.432 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:17:14.432 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:17:14.433 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:17:14.443 DEBUG testcase.staff-edit delete               - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:17:15.597 DEBUG testcase.staff-edit delete               - 3: setText(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Log Masuk/input__no_ktgn"), "99999")
+2026-01-06 13:17:16.374 DEBUG testcase.staff-edit delete               - 4: setEncryptedText(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:17:16.731 DEBUG testcase.staff-edit delete               - 5: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:17:20.546 DEBUG testcase.staff-edit delete               - 6: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:17:21.025 DEBUG testcase.staff-edit delete               - 7: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:17:22.241 DEBUG testcase.staff-edit delete               - 8: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/span"))
+2026-01-06 13:17:24.036 DEBUG testcase.staff-edit delete               - 9: selectOptionByValue(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "hold_party_office", true)
+2026-01-06 13:17:25.074 DEBUG testcase.staff-edit delete               - 10: setText(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "XXX")
+2026-01-06 13:17:25.704 DEBUG testcase.staff-edit delete               - 11: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 13:17:26.028 DEBUG testcase.staff-edit delete               - 12: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 13:17:26.378 DEBUG testcase.staff-edit delete               - 13: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/a__mx-3 btn btn-sm d-flex align-items-cente_89f6a6"))
+2026-01-06 13:17:29.990 DEBUG testcase.staff-edit delete               - 14: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/a__mx-3 btn btn-sm d-flex align-items-cente_89f6a6"))
+2026-01-06 13:17:37.163 DEBUG testcase.staff-edit delete               - 15: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/button_Lihat Butiran Pemakluman Penglibatan_bf6d77"))
+2026-01-06 13:17:38.110 DEBUG testcase.staff-edit delete               - 16: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/a__btn btn-sm btn-icon d-flex align-items-c_163dfb"))
+2026-01-06 13:17:39.269 DEBUG testcase.staff-edit delete               - 17: setText(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Kemaskini Permohonan Aktiviti Politik/input_Bahagian  Cawangan_party_branch"), "TTT")
+2026-01-06 13:17:40.101 DEBUG testcase.staff-edit delete               - 18: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Kemaskini Permohonan Aktiviti Politik/button_Kembali_btnSubmit"))
+2026-01-06 13:17:40.430 DEBUG testcase.staff-edit delete               - 19: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Kemaskini Permohonan Aktiviti Politik/button_Batal_confirmSubmit"))
+2026-01-06 13:17:42.199 DEBUG testcase.staff-edit delete               - 20: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/a__mx-3 btn btn-sm d-flex align-items-cente_89f6a6"))
+2026-01-06 13:17:43.441 DEBUG testcase.staff-edit delete               - 21: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/button_Lihat Butiran Pemakluman Penglibatan_bf6d77"))
+2026-01-06 13:17:44.384 DEBUG testcase.staff-edit delete               - 22: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/button__btn btn-sm btn-icon bs-pass-para d-_6d769a"))
+2026-01-06 13:17:44.757 DEBUG testcase.staff-edit delete               - 23: click(findTestObject("Object Repository/STAFF-EDIT DELETE/Page_MBSP - Pemakluman Penglibatan Politik/button_No_swal2-confirm btn btn-success"))
+2026-01-06 13:17:45.299 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/staff-edit delete
+2026-01-06 13:17:45.568 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-06 13:17:45.568 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/permohonan aktiviti politik
+2026-01-06 13:17:45.569 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

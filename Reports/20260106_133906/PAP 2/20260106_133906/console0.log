@@ -1,0 +1,76 @@
+2026-01-06 13:39:10.511 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\bellaa\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2026-01-06 13:39:10.515 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\bellaa\OneDrive\Desktop\Automation-Testing-MBSP\Automation-Testing-MBSP\Include\config\log.properties
+2026-01-06 13:39:10.706 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/PAP 2
+2026-01-06 13:39:10.863 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = bella nordin
+2026-01-06 13:39:10.864 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Automation-Testing-MBSP
+2026-01-06 13:39:10.865 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bellaa - DESKTOP-T6ADH9V
+2026-01-06 13:39:10.867 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-06 13:39:10.868 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.166
+2026-01-06 13:39:10.869 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2026-01-06 13:39:11.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:39:11.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/jana surat
+2026-01-06 13:39:12.114 DEBUG testcase.jana surat                      - 1: openBrowser("")
+2026-01-06 13:39:12.438 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:39:12.513 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:39:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:39:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:39:15.076 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3da28a087d28ddc7e2ca86aa691260bb
+2026-01-06 13:39:15.077 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:39:15.078 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:39:15.080 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:39:15.090 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:39:15.165 DEBUG testcase.jana surat                      - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:39:16.786 DEBUG testcase.jana surat                      - 3: setText(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__no_ktgn"), "99999")
+2026-01-06 13:39:17.850 DEBUG testcase.jana surat                      - 4: setEncryptedText(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:39:18.256 DEBUG testcase.jana surat                      - 5: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:39:21.403 DEBUG testcase.jana surat                      - 6: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:39:22.004 DEBUG testcase.jana surat                      - 7: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:39:23.416 DEBUG testcase.jana surat                      - 8: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/i__ti ti-eye text-white"))
+2026-01-06 13:39:24.433 DEBUG testcase.jana surat                      - 9: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Muat Turun Surat Kelulusan_btn btn-outlin_f75eb4"))
+2026-01-06 13:39:25.484 DEBUG testcase.jana surat                      - 10: click(findTestObject("Object Repository/PAP-jana surat/Page_MBSP - Pemakluman Penglibatan Politik/a_Permohonan anda telah diluluskan_btn btn-_85b4d2"))
+2026-01-06 13:39:26.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/jana surat
+2026-01-06 13:39:26.541 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-06 13:39:26.541 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject)
+2026-01-06 13:39:26.722 DEBUG t.staff-approval stage (kj reject)       - 1: openBrowser("")
+2026-01-06 13:39:26.727 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-06 13:39:27.075 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-06 13:39:27.077 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 06, 2026 1:39:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 06, 2026 1:39:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-01-06 13:39:28.036 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fada2cb72a6c9a3e5b89136b75e3accd
+2026-01-06 13:39:28.037 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2026-01-06 13:39:28.037 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-06 13:39:28.038 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-06 13:39:28.038 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-06 13:39:28.063 DEBUG t.staff-approval stage (kj reject)       - 2: navigateToUrl("https://mbsphr-dev.veecotech.com.my/internal-login-hr")
+2026-01-06 13:39:29.201 DEBUG t.staff-approval stage (kj reject)       - 3: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "11111")
+2026-01-06 13:39:30.163 DEBUG t.staff-approval stage (kj reject)       - 4: setEncryptedText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:39:30.549 DEBUG t.staff-approval stage (kj reject)       - 5: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:39:33.737 DEBUG t.staff-approval stage (kj reject)       - 6: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:39:34.331 DEBUG t.staff-approval stage (kj reject)       - 7: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:39:35.586 DEBUG t.staff-approval stage (kj reject)       - 8: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Eksport_btn btn-sm btn-secondary"))
+2026-01-06 13:39:37.381 DEBUG t.staff-approval stage (kj reject)       - 9: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/select__application_type"), "hold_party_office", true)
+2026-01-06 13:39:38.531 DEBUG t.staff-approval stage (kj reject)       - 10: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input__party_name"), "TRY")
+2026-01-06 13:39:39.179 DEBUG t.staff-approval stage (kj reject)       - 11: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Bahagian  Cawangan_party_branch"), "TEST")
+2026-01-06 13:39:39.849 DEBUG t.staff-approval stage (kj reject)       - 12: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/input_Perakuan_acknowledge"))
+2026-01-06 13:39:40.237 DEBUG t.staff-approval stage (kj reject)       - 13: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Permohonan Baru Aktiviti Politik/button_Batal_btn btn-primary px-4"))
+2026-01-06 13:39:40.579 DEBUG t.staff-approval stage (kj reject)       - 14: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/span_Log Keluar_hide-mob ms-2"))
+2026-01-06 13:39:44.531 DEBUG t.staff-approval stage (kj reject)       - 15: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Konfigurasi Pelatih Amali_dropdown-item"))
+2026-01-06 13:39:44.879 DEBUG t.staff-approval stage (kj reject)       - 16: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__no_ktgn"), "30006")
+2026-01-06 13:39:47.055 DEBUG t.staff-approval stage (kj reject)       - 17: setEncryptedText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/input__password"), "ReS8CS55u3r9nXfefBFv2A==")
+2026-01-06 13:39:47.419 DEBUG t.staff-approval stage (kj reject)       - 18: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Log Masuk/button__login_button"))
+2026-01-06 13:39:49.503 DEBUG t.staff-approval stage (kj reject)       - 19: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Lapor Diri_dash-mtext"))
+2026-01-06 13:39:50.064 DEBUG t.staff-approval stage (kj reject)       - 20: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Dashboard/span_Permohonan TanahSaham_dash-mtext"))
+2026-01-06 13:39:51.437 DEBUG t.staff-approval stage (kj reject)       - 21: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/button_Permohonan Saya_kelulusan-tab"))
+2026-01-06 13:39:52.327 DEBUG t.staff-approval stage (kj reject)       - 22: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Pemakluman Penglibatan Politik/a_Dalam Semakan_mx-3 btn btn-sm d-flex alig_e6527c"))
+2026-01-06 13:39:54.108 DEBUG t.staff-approval stage (kj reject)       - 23: selectOptionByValue(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/select__decision"), "reject", true)
+2026-01-06 13:39:55.173 DEBUG t.staff-approval stage (kj reject)       - 24: setText(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/textarea_Catatan  Komen_remarks"), "TIDAK BOLEH")
+2026-01-06 13:39:56.049 DEBUG t.staff-approval stage (kj reject)       - 25: click(findTestObject("Object Repository/PAP-ALL (KJ REJECT)/Page_MBSP - Proses Kelulusan Permohonan Akt_2f367e/button_Kembali_btn btn-primary"))
+2026-01-06 13:39:56.393 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Permohonan Aktiviti Politik/staff-approval stage (kj reject)
+2026-01-06 13:39:56.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-06 13:39:56.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/PAP 2
+2026-01-06 13:39:56.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
